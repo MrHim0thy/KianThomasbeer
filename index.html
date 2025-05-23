@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kian Thomasbeer</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
@@ -26,6 +26,19 @@
     header p {
       margin: 0.5rem 0 0;
       font-size: 1.2rem;
+    }
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .profile-container img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1a1a1a;
     }
     main {
       max-width: 800px;
@@ -53,22 +66,42 @@
     a:hover {
       text-decoration: underline;
     }
+
+    /* Responsive Styling */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      .profile-container img {
+        width: 120px;
+        height: 120px;
+      }
+      main {
+        padding: 0 0.8rem;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Kian Thomasbeer</h1>
     <p>Data Science | Web Projects | ML Nerd</p>
+    <div class="profile-container">
+      <img src="profile.jpg" alt="Profile Picture" />
+    </div>
   </header>
   <main>
     <section>
       <h2>👋 About Me</h2>
       <p>
-        Hi! I'm Kian Thomasbeer, a statistics major passionate about uncovering insights through data and building projects that combine creativity with machine learning. 
+        Hi! I'm Kian Thomasbeer, a statistics major passionate about uncovering insights through data and building projects that combine creativity with machine learning.
         I’m currently exploring the intersection of ML, food, and games through personal projects like a personalized album recommender and an MTG meta predictor.
       </p>
       <p>
-        Outside of data science, I run a recipe blog that explores global cuisine and share weekly dishes on 
+        Outside of data science, I run a recipe blog that explores global cuisine and share weekly dishes on
         <a href="https://www.instagram.com/kianthomasbeer/" target="_blank">Instagram</a>. I also enjoy playing ultimate frisbee and tinkering with web tools.
       </p>
       <p>
@@ -86,8 +119,8 @@
     <section>
       <h2>📬 Contact</h2>
       <p>
-        📧 <a href="mailto:kayennepeppaa@gmail.com">kayennepeppaa@gmail.com</a><br>
-        💻 <a href="https://github.com/MrHim0thy" target="_blank">GitHub Profile</a><br>
+        📧 <a href="mailto:kayennepeppaa@gmail.com">kayennepeppaa@gmail.com</a><br />
+        💻 <a href="https://github.com/MrHim0thy" target="_blank">GitHub Profile</a><br />
         📸 <a href="https://www.instagram.com/kianthomasbeer/" target="_blank">Instagram</a>
       </p>
     </section>
