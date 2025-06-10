@@ -86,11 +86,25 @@ header {
       padding: 2.5rem 1rem;
       text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      position: relative;
     }
 header h1 {
       margin: 0;
       font-size: 3rem;
       letter-spacing: 0.5px;
+    }
+.contact-icons {
+      position: absolute;
+      top: 50%;
+      right: 1rem;
+      transform: translateY(-50%);
+      display: flex;
+      gap: 0.5rem;
+    }
+.contact-icons img {
+      width: 20px;
+      height: 20px;
+      filter: invert(1);
     }
 main {
       max-width: 900px;
