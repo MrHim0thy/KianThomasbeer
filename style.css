@@ -84,23 +84,13 @@ header {
       background: linear-gradient(45deg, #00adb5, #007bff);
       color: white;
       padding: 2.5rem 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     }
 header h1 {
       margin: 0;
       font-size: 3rem;
       letter-spacing: 0.5px;
-    }
-.contact-icons {
-      display: flex;
-      gap: 0.8rem;
-    }
-.contact-icons img {
-      width: 32px;
-      height: 32px;
     }
 main {
       max-width: 900px;
@@ -184,10 +174,6 @@ main {
     }
     header h1 {
       font-size: 2rem;
-    }
-    .contact-icons img {
-      width: 24px;
-      height: 24px;
     }
     main {
       padding: 0 0.8rem;
