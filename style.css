@@ -87,11 +87,6 @@
   z-index: 1000;
 }
 
-.top-bar .name {
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin: 0;
-}
 
 
 .content {
@@ -119,7 +114,6 @@ header h1 {
 .contact-icons img {
       width: 14px;
       height: 14px;
-      filter: invert(1);
     }
 main {
       max-width: 900px;
