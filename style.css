@@ -57,6 +57,23 @@
     text-decoration: none;
   }
 
+  .resume-btn {
+    margin-top: auto;
+    display: block;
+    width: 100%;
+    background-color: #00adb5;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+
+  .resume-btn:hover {
+    background-color: #008a91;
+    text-decoration: none;
+  }
+
 
   .content {
     flex: 1;
