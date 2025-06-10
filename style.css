@@ -74,8 +74,27 @@
     text-decoration: none;
   }
 
+.top-bar {
+  margin-left: 240px;
+  background-color: #181818;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-  .content {
+.top-bar .name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+
+.content {
     flex: 1;
     margin-left: 240px;
     padding-bottom: 2rem;
@@ -86,11 +105,21 @@ header {
       padding: 2.5rem 1rem;
       text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      position: relative;
     }
 header h1 {
       margin: 0;
       font-size: 3rem;
       letter-spacing: 0.5px;
+    }
+.contact-icons {
+      display: flex;
+      gap: 0.5rem;
+    }
+.contact-icons img {
+      width: 14px;
+      height: 14px;
+      filter: invert(1);
     }
 main {
       max-width: 900px;
@@ -170,6 +199,9 @@ main {
       margin-right: 1rem;
     }
     .content {
+      margin-left: 0;
+    }
+    .top-bar {
       margin-left: 0;
     }
     header h1 {
