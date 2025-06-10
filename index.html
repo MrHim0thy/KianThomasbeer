@@ -23,24 +23,42 @@
       margin: 0;
       font-size: 2.5rem;
     }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-    }
-    .profile-container {
+    .container {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
     }
-    .profile-container img {
+    .sidebar {
+      width: 240px;
+      background: #fff;
+      padding: 2rem 1rem;
+      box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar img {
       width: 150px;
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
       border: 4px solid #1a1a1a;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .sidebar li {
+      margin-bottom: 0.5rem;
+    }
+    .sidebar a {
+      color: #1e88e5;
+      text-decoration: none;
+      font-weight: 600;
     }
     main {
+      flex: 1;
       max-width: 800px;
       margin: 2rem auto;
       padding: 0 1rem;
@@ -93,14 +111,21 @@
       header h1 {
         font-size: 2rem;
       }
-      header p {
-        font-size: 1rem;
+      .sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
-      .profile-container img {
+      .sidebar img {
         width: 120px;
         height: 120px;
       }
+      .container {
+        flex-direction: column;
+      }
       main {
+        margin: 1rem auto;
         padding: 0 0.8rem;
       }
     }
@@ -109,15 +134,22 @@
 <body>
   <header>
     <h1>Kian Thomasbeer</h1>
-    <p>Data Science | Web Projects | ML Nerd</p>
-    <div class="profile-container">
-      <img src="profile.jpg" alt="Profile Picture" />
-    </div>
   </header>
-  <main>
-    <details open>
-      <summary>👋 About Me</summary>
-      <p>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Profile Picture" />
+      <nav>
+        <ul>
+          <li><a href="#" id="link-data-science">Data Science</a></li>
+          <li><a href="#" id="link-web-projects">Web Projects</a></li>
+          <li><a href="#" id="link-ml-nerd">ML Nerd</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <details open>
+        <summary>👋 About Me</summary>
+        <p>
         Hi! I'm Kian Thomasbeer, a statistics major passionate about uncovering insights through data and building projects that combine creativity with machine learning.
         I’m currently exploring the intersection of ML, food, and games through personal projects like a personalized album recommender and an MTG meta predictor.
       </p>
@@ -134,7 +166,7 @@
       <ul>
         <li><strong>Meta Morph</strong>: A model that predicts MTG meta shifts using NLP and graph theory.</li>
         <li><strong>Global Plate Chronicles</strong>: A recipe blog exploring world cuisine, updated weekly.</li>
-        <li><strong>Pass Predictor</strong>: A sports analytics tool using image data to classify completed passes.</li>
+      <li><strong>Pass Predictor</strong>: A sports analytics tool using image data to classify completed passes.</li>
       </ul>
     </details>
     <details>
@@ -145,9 +177,11 @@
         📸 <a href="https://www.instagram.com/kianthomasbeer/" target="_blank">Instagram</a>
       </p>
     </details>
-  </main>
+    </main>
+  </div>
   <footer>
     &copy; 2025 Kian Thomasbeer. All rights reserved.
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
