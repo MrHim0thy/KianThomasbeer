@@ -1,3 +1,3 @@
 # KianThomasbeer
 Website:
-TO access paste in browser
+https://mrhim0thy.github.io/KianThomasbeer/
