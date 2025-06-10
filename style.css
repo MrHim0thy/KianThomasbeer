@@ -94,6 +94,7 @@
 }
 
 
+
 .content {
     flex: 1;
     margin-left: 240px;
@@ -119,7 +120,6 @@ header h1 {
 .contact-icons img {
       width: 14px;
       height: 14px;
-      filter: invert(1);
     }
 main {
       max-width: 900px;
