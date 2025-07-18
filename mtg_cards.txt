@@ -1,0 +1,58 @@
+Black Lotus
+Shivan Dragon
+Giant Growth
+Lightning Bolt
+Counterspell
+Snapcaster Mage
+Tarmogoyf
+Delver of Secrets
+Brainstorm
+Thoughtseize
+Liliana of the Veil
+Dark Confidant
+Jace, the Mind Sculptor
+Bloodbraid Elf
+Path to Exile
+Supreme Verdict
+Wrath of God
+Force of Will
+Vendilion Clique
+Emrakul, the Aeons Torn
+Serra Angel
+Goblin Guide
+Skullclamp
+Isochron Scepter
+Sol Ring
+Swords to Plowshares
+Lightning Helix
+Fatal Push
+Spell Pierce
+Bitterblossom
+Stoneforge Mystic
+Umezawa's Jitte
+Arcbound Ravager
+Mox Pearl
+Mox Sapphire
+Mox Jet
+Mox Ruby
+Mox Emerald
+Karplusan Forest
+Hinterland Harbor
+Sulfur Falls
+Glacial Fortress
+Rootbound Crag
+Clifftop Retreat
+Dragonskull Summit
+Sunpetal Grove
+Temple Garden
+Steam Vents
+Blood Crypt
+Hallowed Fountain
+Breeding Pool
+Watery Grave
+Overgrown Tomb
+Sacred Foundry
+Stomping Ground
+Godless Shrine
+Raging Ravine
+Celestial Colonnade
