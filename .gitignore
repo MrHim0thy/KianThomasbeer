@@ -1,0 +1,4 @@
+mtg_name_model.h5
+char2idx.npy
+idx2char.npy
+__pycache__/
